@@ -12,6 +12,6 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v1
       - name: Build docker image
-        uses: jumpe1/test4/.github/actions/latex@main
+        uses: jumpe1/test6/.github/actions/latex@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
